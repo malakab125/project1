@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+    ></script>
+
+    <style>
+        #task-list li {
+            display: none;  /* Initially hide the task */
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body >
+   
+    <div class="container">
+        <h1>Hello js we are doing Todo list </h1>
+   
+
+        <form id="task-form">
+        
+            <input type="text" id="EnterTask" placeholder="Enter your next task!" required >
+            <button type="submit">Add!</button>
+        </form>
+            <ul id="listOftasks"></ul>
+     
+    </div>
+    
+    <script src="index.js"></script>
+
+
+</body>
+</html>
